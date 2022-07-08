@@ -33,7 +33,7 @@ class JenisBaju():
 class BahanBaju():
     drill = 20
     katun = 40
-    denim = 30
+    denim = 60
 
     def sedikit(self, x):
         if x >= self.drill:
@@ -93,9 +93,9 @@ class WarnaBaju():
             return up(x, self.putih, self.pink)
 
 class MotifBaju():
-    burung = 50
-    badak = 20
-    wallet = 30
+    burung = 30
+    badak = 40
+    wallet = 50
    
     def sedikit(self, x):
         if x >= self.badak:
